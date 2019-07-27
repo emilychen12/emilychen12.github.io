@@ -1,0 +1,219 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(160, 0, 0);
+    height: 50px;
+    padding-top: 4px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-top: 3px;
+    line-height: 10px;
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 18px;
+}
+
+#nav-bar-writing .nav {
+    margin-right: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#default {
+    margin-left: -350px;
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+}
+
+h1 {
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+#goals-container h2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#about-container h1 {
+    padding: 0;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(243, 0, 41);
+    color: white;
+    border-radius: 5px;
+    border: rgb(243, 0, 41);
+    outline: none;
+    font-size: 20px;
+}
+
+#about-me-btn {
+    width: 250px;
+}
+
+#writing-btn {
+    width: 300px;
+}
+
+button:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#goals-container button {
+    width: 250px;
+}
+
+p {
+    line-height: 26px;
+}
+
+#intro-container {
+    text-align: center;
+    background-color: black;
+    /* background-color: rgb(251, 224, 228); */
+    height: 300px;
+    padding: 20px 50px 50px 50px;
+}
+
+#intro-container h1, #intro-container h2{
+    color: white;
+}
+
+#who-am-i-container {
+    position: relative;
+    background-color: rgb(160, 0, 0);
+    height: 500px;
+}
+
+#who-am-i {
+    background-color: white;
+    padding: 50px;
+    margin-left: 30px;
+    border: 3px black solid;
+}
+
+#who-am-i h2 {
+    color: rgb(160,0,0);
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+#about-container {
+    background-color: rgb(79, 79, 255, 0.3);
+    padding: 20px 50px 50px 50px;
+    border: 3px black solid;
+}
+
+#video-game-scripting {
+    background-color: rgb(160,0,0);
+    padding: 20px 50px 50px 50px;
+    color: white;
+}
+
+#teaching-coursework, #programming-coursework {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 20px 50px 50px 50px;
+}
+
+#skills {
+    background-color: rgb(160,0,0);
+    color: white;
+    padding: 20px 50px 50px 50px;
+}
+
+#education-container, #about-container {
+    padding: 20px 50px 50px 50px;
+    background-color: black;
+    color: white;
+}
+
+#teaching-intro, #programming-intro, #writing-intro {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#teaching-exp-container, #programming-exp-container {
+    padding: 20px 50px 50px 50px;
+}
+
+#teaching-exp-container h2, #programming-exp-container h2 {
+    font-size: 35px;
+}
+
+#writing-container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    nav li {
+      margin-right: 10px;
+      font-size: 12px;
+    }
+
+    button {
+        width: 250px;
+    }
+
+    #about-me-btn {
+        font-size: 15px;
+        width: 200px; 
+    }
+
+    #who-am-i-container {
+        height: 885px;
+    }
+
+    #programming-intro h1 {
+        font-size: 45px;
+    }
+  }
