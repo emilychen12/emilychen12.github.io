@@ -249,6 +249,11 @@ nav li {
     font-size: 18px;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+  }
+
 
 @media only screen and (max-width: 400px) {
     nav li {
