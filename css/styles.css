@@ -250,7 +250,8 @@ nav li {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+
     nav li {
       margin-right: 10px;
       font-size: 12px;
@@ -271,5 +272,77 @@ nav li {
 
     #programming-intro h1 {
         font-size: 45px;
+    }
+
+    #intro_img {
+        width: 300px;
+        height: 250px;
+    }
+
+    #emily_photo {
+        width: 300px;
+        height: 340px;
+    }
+
+    #zenithia1, #zenithia2 {
+        width: 300px;
+    }
+
+    #zenithia1 {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    #who-am-i h3 {
+        font-size: 22px;
+    }
+
+    #writing-container {
+        padding: 20px 50px 50px 50px;
+    }
+
+    #default {
+        margin: 0;
+        display: none;
+    }
+
+    #who-am-i-container {
+        height: 100%;
+    }
+
+    #who-am-i h3 {
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    #intro_img, #emily_photo {
+        width: 220px;
+        height: 200px;
+    }
+
+    button {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    #writing-btn {
+        width: 200px;
+    }
+
+    button#programming-btn, button#teaching-exp-btn {
+        width: 200px;
+    }
+
+    #who-am-i h3 {
+        font-size: 17px;
+    }
+
+    #who-am-i p {
+        font-size: 17px;
+    }
+
+    #who-am-i-container {
+        height: 100%;
     }
   }
