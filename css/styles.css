@@ -126,7 +126,7 @@ p {
     background-color: black;
     /* background-color: rgb(251, 224, 228); */
     height: 700px;
-    padding: 20px 50px 50px 50px;
+    padding: 20px 50px 0px 50px;
 }
 
 #intro-container h1, #intro-container h2{
@@ -215,13 +215,13 @@ p {
 
 #intro_img {
     text-align: center;
-    width: 550px;
-    height: 400px;
+    width: 280px;
+    height: 360px;
 }
 
 #emily_photo {
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 400px;
 }
 
 #zenithia1 {
