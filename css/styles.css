@@ -275,8 +275,90 @@ nav {
         height: 885px;
     }
 
+    #who-am-i {
+        padding: 15px;
+    }
+
+    #who-am-i > h3 {
+        font-size: 18px;
+    }
+
     #programming-intro h1 {
         font-size: 45px;
+    }
+
+    #emily_photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    #about-container, #intro-container, #programming-exp-container, #teaching-exp-container, #writing-container {
+        padding: 15px;
+    }
+
+    #writing-btn {
+        width: 280px;
+    }
+
+    #zenithia1, #zenithia2 {
+        width: 200px;
+    }
+
+    #zenithia2 {
+        margin-left: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 800px) {
+    nav li {
+      margin-right: 20px;
+      font-size: 12px;
+    }
+
+    button {
+        width: 250px;
+    }
+
+    #about-me-btn {
+        font-size: 15px;
+        width: 200px; 
+    }
+
+    #who-am-i-container {
+        height: 885px;
+    }
+
+    #who-am-i {
+        padding: 15px;
+    }
+
+    #who-am-i > h3 {
+        font-size: 18px;
+    }
+
+    #programming-intro h1 {
+        font-size: 45px;
+    }
+
+    #emily_photo {
+        width: 450px;
+        height: 450px;
+    }
+
+    #about-container, #intro-container, #programming-exp-container, #teaching-exp-container, #writing-container {
+        padding: 15px;
+    }
+
+    #writing-btn {
+        width: 280px;
+    }
+
+    #zenithia1, #zenithia2 {
+        width: 230px;
+    }
+
+    #zenithia2 {
+        margin-left: 25px;
     }
   }
  
