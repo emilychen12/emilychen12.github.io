@@ -256,7 +256,7 @@ nav {
   }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
     nav li {
       margin-right: 10px;
       font-size: 12px;
@@ -288,8 +288,8 @@ nav {
     }
 
     #emily_photo {
-        width: 250px;
-        height: 250px;
+        width: 260px;
+        height: 210px;
     }
 
     #about-container, #intro-container, #programming-exp-container, #teaching-exp-container, #writing-container {
@@ -309,7 +309,7 @@ nav {
     }
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 800px) {
+  @media only screen and (min-width: 430px) and (max-width: 800px) {
     nav li {
       margin-right: 20px;
       font-size: 12px;
