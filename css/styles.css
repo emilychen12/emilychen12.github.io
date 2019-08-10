@@ -1,6 +1,11 @@
+html {
+    min-height: 100%;
+}
+
 body {
     font-family: "Roboto";
     margin: 0;
+    min-height: 100%;
 }
 
 nav {
@@ -9,6 +14,7 @@ nav {
     padding-top: 4px;
     color: white;
     border-bottom: 1.5px solid black;
+    width: 100%;
 }
 
 .nav {
@@ -36,6 +42,19 @@ a {
 
 a:hover {
     color: rgba(255, 255, 255, 0.8);
+}
+
+h3 > a {
+    color: black;
+}
+
+h3 > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
 }
 
 #default {
@@ -141,14 +160,15 @@ p {
 #who-am-i-container {
     position: relative;
     background-color: rgb(160, 0, 0);
-    height: 500px;
+    min-height: 500px;
 }
 
 #who-am-i {
     background-color: white;
     padding: 50px;
     margin-left: 30px;
-    border: 3px black solid;
+    border: black solid;
+    border-width: 0 3px 3px 3px;
 }
 
 #who-am-i h2 {
@@ -256,6 +276,32 @@ nav {
     top: 0;
   }
 
+footer {
+    padding: 10px;
+    background: rgb(81, 0, 0);
+    color: white;
+}
+
+#icons {
+    text-align: center;
+}
+
+#linkedin-icon {
+    padding-bottom: 1px;
+    width: 63px;
+    margin-right: 10px;
+}
+
+#mail-icon {
+    width: 65px;
+    margin-right: 158.2px;
+}
+
+#footer-text {
+    float: left;
+    padding-top: 25px;
+    margin-left: 30px;
+}
 
 @media only screen and (max-width: 430px) {
     nav li {
@@ -311,6 +357,10 @@ nav {
   }
 
   @media only screen and (min-width: 430px) and (max-width: 800px) {
+    #default {
+        display: none;
+    }
+
     nav li {
       margin-right: 20px;
       font-size: 12px;
