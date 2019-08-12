@@ -305,7 +305,7 @@ footer {
 
 @media only screen and (max-width: 430px) {
     nav li {
-      margin-right: 10px;
+      margin-right: 9px;
       font-size: 10px;
     }
 
@@ -328,6 +328,10 @@ footer {
 
     #who-am-i > h3 {
         font-size: 18px;
+    }
+
+    #who-am-i > p {
+        font-size: 16px;
     }
 
     #programming-intro h1 {
@@ -395,6 +399,7 @@ footer {
 
     #who-am-i {
         padding: 15px;
+        height: 750px;
     }
 
     #who-am-i > h3 {
@@ -425,6 +430,10 @@ footer {
     #zenithia2 {
         margin-left: 25px;
     }
+
+    #default {
+        display: none;
+    }
   }
  
 @media only screen and (max-width: 1024px) {
@@ -433,6 +442,11 @@ footer {
     }
 
     #who-am-i {
-        height: 100%;
+        padding: 15px;
+        height: 750px;
+    }
+
+    #mail-icon {
+        margin-right: 0;
     }
 }  
