@@ -49,8 +49,7 @@ h3 > a {
 }
 
 h3 > a:hover {
-    color: black;
-    text-decoration: underline;
+    color: rgb(243, 0, 41);
 }
 
 a {
