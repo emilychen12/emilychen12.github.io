@@ -297,11 +297,6 @@ p {
     height: 400px;
 }
 
-#zenithia1 {
-    margin-left: 25px;
-    margin-right: 50px;
-}
-
 #cs3110-midterm {
     margin-left: 25px;
 }
@@ -359,6 +354,51 @@ footer {
     margin-left: 30px;
 }
 
+#slideshow-container {
+    display: flex;
+    align-items: center;
+}
+
+#next, #back {
+    width: 40px;
+    font-size: 50px;
+    height: 100px;
+    color: black;
+    background-color: white;
+}
+
+#next:hover, #back:hover {
+    color:rgb(243, 0, 41);
+    ;
+}
+
+#next {
+    margin-left: 5px;
+}
+
+#back {
+    margin-right: 5px;
+}
+
+/* adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.2s;
+    animation-direction: alternate;
+    animation-name: fade;
+    animation-duration: 1.2s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+  }
+
 @media only screen and (max-width: 430px) {
     nav li {
       margin-right: 9px;
@@ -410,14 +450,6 @@ footer {
 
     #writing-btn {
         width: 280px;
-    }
-
-    #zenithia1, #zenithia2 {
-        width: 200px;
-    }
-
-    #zenithia2 {
-        margin-left: 25px;
     }
 
     #linkedin-icon {
@@ -487,14 +519,6 @@ footer {
 
     #writing-btn {
         width: 280px;
-    }
-
-    #zenithia1, #zenithia2 {
-        width: 230px;
-    }
-
-    #zenithia2 {
-        margin-left: 25px;
     }
 
     #default {

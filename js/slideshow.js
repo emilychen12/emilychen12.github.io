@@ -1,40 +1,39 @@
 $(document).ready(function() {
   var images = [
-    "images/voncramm1.jpg", 
-    "images/voncramm2.jpg",
-    "images/voncramm3.jpg",
-    "images/voncramm4.jpg", 
-    "images/Voncramm5.jpg"
+    "images/zenithia_0.png", 
+    "images/zenithia_1.png",
+    "images/zenithia_2.png",
+    "images/zenithia_3.png"
   ];
   var currindex = 0;
 
-  $("#ssnext").click(function() {
+  $("#next").click(function() {
+    $("#zenithia_slides").addClass("fade");
     currindex += 1;
 
-    if(currindex >= images.length) {
+    if(currindex > 3) {
       currindex = 0;
     }
-    $("#slideshowimg").attr("src", images[currindex]);
+    $("#zenithia_slides").attr("src", images[currindex]);
+    // src: https://css-tricks.com/restart-css-animation/
+    var el = $("#zenithia_slides"),  
+     newone = el.clone(true);        
+    el.before(newone);    
+    $("." + el.attr("class") + ":last").remove();
   });
 
-  $("#ssback").click(function() {
+  $("#back").click(function() {
+    $("#zenithia_slides").addClass("fade");
     currindex -= 1;
 
-    if(currindex <= 0) {
-      currindex = 4;
+    if(currindex < 0) {
+      currindex = 3;
     } 
-    $("#slideshowimg").attr("src", images[currindex]);
+    $("#zenithia_slides").attr("src", images[currindex]);
+    // src: https://css-tricks.com/restart-css-animation/
+    var el = $("#zenithia_slides"),  
+    newone = el.clone(true);        
+   el.before(newone);    
+   $("." + el.attr("class") + ":last").remove();
   });
-carousel();
-
-function carousel() {
-    if (currindex >= images.length) {
-      currindex = 0
-    }
-    else {
-      currindex++;
-    }
-    $("#slideshowimg").attr("src", images[currindex]);
-    setTimeout(carousel, 5000);
-}
 });
