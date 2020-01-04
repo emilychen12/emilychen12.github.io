@@ -277,9 +277,13 @@ p {
     width: 250px;
 }
 
-#added-text {
+.added-text {
     color: white;
     font-size: 20px;
+}
+
+#non-mobile {
+    font-weight: 200;
 }
 
 #game-link {
