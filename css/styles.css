@@ -310,6 +310,10 @@ img {
     border-radius: 5px;
 }
 
+#about-paragraph {
+    margin-top: 45px;
+}
+
 ul > li {
     font-size: 18px;
     line-height: 26px;
