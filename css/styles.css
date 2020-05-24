@@ -6,6 +6,7 @@ body {
     font-family: "Roboto";
     margin: 0;
     min-height: 100%;
+    background-color: rgb(160, 0, 0);
 }
 
 nav {
@@ -49,6 +50,10 @@ a:hover {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.game-link:hover {
+    color: rgb(243, 0, 41);
+}
+
 h3 > a {
     color: black;
 }
@@ -90,6 +95,11 @@ h1 {
 
 #about-container h1 {
     padding: 0;
+}
+
+.header-container {
+    background-color: white;
+    padding: 10px;
 }
 
 h3 {
@@ -141,7 +151,7 @@ button:hover {
 }
 
 p {
-    line-height: 26px;
+    line-height: 30px;
     font-size: 18px;
 }
 
@@ -227,6 +237,7 @@ p {
 
 #teaching-exp-container, #programming-exp-container {
     padding: 20px 50px 50px 50px;
+    background-color: white;
 }
 
 #programming-exp-container ul, #teaching-exp-container ul {
@@ -235,6 +246,7 @@ p {
 
 #teaching-exp-container h2, #programming-exp-container h2 {
     font-size: 40px;
+    color: rgb(160,0,0);
 }
 
 .game-aside {
@@ -243,9 +255,10 @@ p {
 }
 
 #writing-container {
+    background-color: white; padding: 10px;
     text-align: center;
-    padding: 20px 50px 50px 50px;
-    margin-bottom: 150px;
+    padding: 20px 50px 250px 50px;
+    /* margin-bottom: 150px; */
 }
 
 #game-intro {
@@ -396,6 +409,10 @@ footer {
 #nav-bar-writing .nav {
     margin-right: 0px;
 }
+
+hr {
+    margin-top: 40px;
+ }
 
 /* adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
 .fade {
