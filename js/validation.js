@@ -1,40 +1,48 @@
-$(document).ready(function () {
-  $("#contact-form").on("submit", function() {
-    var formValid = true;
-
-    var validName = $("#name").prop("validity").valid;
-    if(validName) {
-      $("#nameError").addClass("hidden");
-    } else {
-      $("#nameError").removeClass("hidden");
-       formValid = false;
-    }
-
-    var validEmail = $("#email").prop("validity").valid;
-    if(validEmail) {
-      $("#emailError").addClass("hidden");
-    } else {
-      $("#emailError").removeClass("hidden");
-      formValid = false;
-    }
-
-    var validSubject = $("#subject").prop("validity").valid;
-    if(validSubject) {
-      $("#subjectError").addClass("hidden");
-    } else {
-      $("#subjectError").removeClass("hidden");
-      formValid = false;
-    }
-
-    var validMessage = $("#message").prop("validity").valid;
-    if(validMessage) {
-      $("#messageError").addClass("hidden");
-    } else {
-      $("#messageError").removeClass("hidden");
-      formValid = false;
-    }
-
-    return formValid;
+$(document).ready(function() {
+  // http://git.blivesta.com/animsition/
+  $(".animsition-fade").animsition({
+    inClass: 'fade-in-down',
+    outClass: 'fade-up-down',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
   });
 
+  $(".animsition-zoom").animsition({
+    inClass: 'zoom-in',
+    outClass: 'zoom-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
 });

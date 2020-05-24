@@ -8,53 +8,59 @@
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- page animation -->
+    <link rel="stylesheet" href="css/animsition.css">
+    <script type="text/javascript" src="js/animsition.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
 </head>
 <body>
-    <nav id="nav-bar">
-        <ul class="nav">
-            <li><a id="default" href="index.html">EMILY CHEN</a></li>
-            <li><a id="home" href="index.html"><b>Home</b></a></li>
-            <li><a id="about" href="about.html">About</a></li>
-            <li><a id="teaching" href="teaching.html">Teaching</a></li>
-            <li><a id="programming" href="programming.html">Developer Experience</a></li>
-            <li><a id="writing" href="writing.html">Writing Portfolio</a></li>
-        </ul>
-    </nav>
-    <div id="content-container">
-        <section id="intro-container">
-            <h1>Emily Chen</h1>
-            <h2>Developer, Educator, Writer</h2>
-            <img src="images/emily_headshot.jpg" id="intro_img" alt="Self Photo">
-            <br><br><br>
-            <form method="get" action="docs/Emily Chen (Resume).pdf" target="_blank">
-                <button id="resume" type="submit">Resume</button>
-            </form>
-        </section>
-        <section id="who-am-i-container">
-            <div id="who-am-i">
-                <h2>WHO AM I?</h2>
-                <h3><a href="programming.html">GAME AND WEB DEVELOPER</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="sep">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="teaching.html">HUMANITIES EDUCATOR</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="sep">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="writing.html">CREATIVE WRITER</a></h3>
-                <p>
-                    I am recent graduate of Cornell University with a Master's degree in Computer Science and Bachelor's degrees in English and Information Science with minors 
-                    in Education and Computer Science. My dream is to write video game storylines and design games that are both fun and educational. 
-                    Furthermore, I am passionate about web development and hope to create websites that are accessible and meet the needs of as many people as possible.
-                    I am also a lover of classic literature and history; thus, I hope to spread my passion for the humanities to the future generation of students. 
-                </p>
-                <br>
-                <div class="button-container">
-                    <form action ="about.html">
-                        <button type="submit" id="about-me-btn">More About Me</button>
-                    </form>
+    <div class="animsition-zoom animsition" data-animsition-in-class="zoom-in" data-animsition-in-duration="1000" data-animsition-out-class="zoom-out" data-animsition-out-duration="800">
+        <nav id="nav-bar">
+            <ul class="nav">
+                <li><a id="default" href="index.html">EMILY CHEN</a></li>
+                <li><a id="home" href="index.html"><b>Home</b></a></li>
+                <li><a id="about" href="about.html">About</a></li>
+                <li><a id="teaching" href="teaching.html">Teaching</a></li>
+                <li><a id="programming" href="programming.html">Developer Experience</a></li>
+                <li><a id="writing" href="writing.html">Writing Portfolio</a></li>
+            </ul>
+        </nav>
+        <div id="content-container">
+            <section id="intro-container">
+                <h1>Emily Chen</h1>
+                <h2>Developer, Educator, Writer</h2>
+                <img src="images/emily_headshot.jpg" id="intro_img" alt="Self Photo">
+                <br><br><br>
+                <form method="get" action="docs/Emily Chen (Resume).pdf" target="_blank">
+                    <button id="resume" type="submit">Resume</button>
+                </form>
+            </section>
+            <section id="who-am-i-container">
+                <div id="who-am-i">
+                    <h2>WHO AM I?</h2>
+                    <h3><a href="programming.html">GAME AND WEB DEVELOPER</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="sep">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="teaching.html">HUMANITIES EDUCATOR</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="sep">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="writing.html">CREATIVE WRITER</a></h3>
+                    <p>
+                        I am a recent graduate of Cornell University with a Master's degree in Computer Science and Bachelor's degrees in English and Information Science with minors 
+                        in Education and Computer Science. My dream is to write video game storylines and design games that are both fun and educational. 
+                        Furthermore, I am passionate about web development and hope to create websites that are accessible and meet the needs of as many people as possible.
+                        I am also a lover of classic literature and history; thus, I hope to spread my passion for the humanities to the future generation of students. 
+                    </p>
+                    <br>
+                    <div class="button-container">
+                        <form action ="about.html">
+                            <button type="submit" id="about-me-btn">More About Me</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <div id="icons">
-            <div id="footer-text">2020 &#8226 Emily Chen</div>
-            <a href="https://www.linkedin.com/in/emily-chen12/" target="_blank"><img src="images/linkedin_icon.png" id="linkedin-icon" alt="linkedin icon"></a>
-            <a href="mailto: ec745@cornell.edu"><img src="images/mail_icon.png" id="mail-icon" alt="mail icon"></a>
+            </section>
         </div>
-    </footer>
+        <footer>
+            <div id="icons">
+                <div id="footer-text">2020 &#8226 Emily Chen</div>
+                <a href="https://www.linkedin.com/in/emily-chen12/" target="_blank"><img src="images/linkedin_icon.png" id="linkedin-icon" alt="linkedin icon"></a>
+                <a href="mailto: ec745@cornell.edu"><img src="images/mail_icon.png" id="mail-icon" alt="mail icon"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
