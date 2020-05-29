@@ -376,12 +376,12 @@ footer {
     margin-left: 30px;
 }
 
-#slideshow-container {
+#slideshow-container, #slideshow-container2 {
     display: flex;
     align-items: center;
 }
 
-#next, #back {
+#next, #back, #next2, #back2 {
     width: 40px;
     font-size: 50px;
     height: 100px;
@@ -389,16 +389,16 @@ footer {
     background-color: white;
 }
 
-#next:hover, #back:hover {
+#next:hover, #back:hover, #next2:hover, #back2:hover {
     color:rgb(243, 0, 41);
     ;
 }
 
-#next {
+#next, #next2 {
     margin-left: 5px;
 }
 
-#back {
+#back, #back2 {
     margin-right: 5px;
 }
 
@@ -412,6 +412,10 @@ footer {
 
 hr {
     margin-top: 40px;
+ }
+
+ #vcalumni_slides {
+     width: 50%;
  }
 
 /* adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
@@ -497,6 +501,10 @@ hr {
 
     #about-container {
         padding: 20px 50px 50px 50px;
+    }
+
+    #vcalumni_slides {
+        width: 80%;
     }
 
     #writing-btn {
