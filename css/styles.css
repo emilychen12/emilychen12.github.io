@@ -603,6 +603,12 @@ hr {
         color: black;
         background-color: white;
     }
+
+    #cs3110-midterm {
+        width: 270px;
+        height: 180px;
+    }
+
   }
  
 @media only screen and (max-width: 1300px) {
