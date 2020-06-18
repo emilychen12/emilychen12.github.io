@@ -544,6 +544,14 @@ hr {
         color: black;
         background-color: white;
     }
+
+    #next, #next2 {
+        margin-left: 0px;
+    }
+    
+    #back, #back2 {
+        margin-right: 0px;
+    }
   }
 
   @media only screen and (max-width: 800px) {
@@ -627,6 +635,14 @@ hr {
         height: 100px;
         color: black;
         background-color: white;
+    }
+
+    #next, #next2 {
+        margin-left: 0px;
+    }
+    
+    #back, #back2 {
+        margin-right: 0px;
     }
 
   }
