@@ -537,7 +537,8 @@ hr {
     }
 
     #next, #back, #next2, #back2 {
-        width: 25px;
+        /* width: 25px; */
+        width: 25%;
         font-size: 50px;
         height: 100px;
         color: black;
@@ -621,8 +622,8 @@ hr {
     }
     
     #next, #back, #next2, #back2 {
-        width: 25px;
-        font-size: 50px;
+        width: 10%;
+        font-size: 40px;
         height: 100px;
         color: black;
         background-color: white;
