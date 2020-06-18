@@ -150,6 +150,10 @@ button:hover {
     width: 250px;
 }
 
+#writing-form {
+    margin-bottom: 100px;
+}
+
 p {
     line-height: 30px;
     font-size: 18px;
@@ -257,7 +261,7 @@ p {
 #writing-container {
     background-color: white; padding: 10px;
     text-align: center;
-    padding: 20px 50px 250px 50px;
+    padding: 20px 50px 500px 50px;
     /* margin-bottom: 150px; */
 }
 
@@ -499,6 +503,14 @@ hr {
         padding: 15px;
     }
 
+    #writing-container {
+        padding-bottom: 100px;
+    }
+
+    #writing-form {
+        margin-bottom: 100px;
+    }
+
     #about-container {
         padding: 20px 50px 50px 50px;
     }
@@ -523,6 +535,14 @@ hr {
         font-size: 10px;
         padding-bottom: 15px;
         margin: 0;
+    }
+
+    #next, #back, #next2, #back2 {
+        width: 25px;
+        font-size: 50px;
+        height: 100px;
+        color: black;
+        background-color: white;
     }
   }
 
@@ -563,8 +583,8 @@ hr {
     }
 
     #emily_photo {
-        width: 450px;
-        height: 450px;
+        width: 260px;
+        height: 210px;
     }
 
     #cs3110-midterm {
@@ -596,17 +616,17 @@ hr {
         max-width: 320px;
     }
 
+    #cs3110-midterm {
+        width: 270px;
+        height: 180px;
+    }
+    
     #next, #back, #next2, #back2 {
         width: 25px;
         font-size: 50px;
         height: 100px;
         color: black;
         background-color: white;
-    }
-
-    #cs3110-midterm {
-        width: 270px;
-        height: 180px;
     }
 
   }
