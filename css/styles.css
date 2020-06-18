@@ -553,7 +553,7 @@ hr {
         margin-right: 0px;
     }
 
-    #programming-coursework {
+    #teaching-coursework, #programming-coursework {
         background-color: black;
     }
   }
@@ -649,7 +649,7 @@ hr {
         margin-right: 0px;
     }
 
-    #programming-coursework {
+    #teaching-coursework, #programming-coursework {
         background-color: black;
     }
   }
@@ -668,7 +668,7 @@ hr {
         margin-right: 0;
     }
 
-    #programming-coursework {
+    #teaching-coursework, #programming-coursework {
         background-color: black;
     }
 }  
