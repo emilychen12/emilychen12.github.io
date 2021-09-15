@@ -105,6 +105,7 @@ h1 {
 h3 {
     font-size: 27px;
     margin-bottom: 0;
+    margin-top: 40px;
 }
 
 h4 {
@@ -419,6 +420,10 @@ hr {
 
  #vcalumni_slides {
      width: 50%;
+ }
+
+ .fadein {
+     opacity: 0;
  }
 
 /* adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
